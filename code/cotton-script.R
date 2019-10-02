@@ -54,6 +54,7 @@ ncc3 %>%
     geom_point()+
     theme_minimal()+
     theme(axis.text.x = element_text(angle = 90))+
+    labs(title = "Cotton production in NC", caption = "Source: USDA NASS") +
   facet_grid(rows = vars(measurement), cols = vars(ag_district), # facet rows by what type of value is being displayed, cols by                                                                   which ag district 
              scales = "free_y")
 
@@ -82,7 +83,8 @@ total %>%
   
   
   
-#Tryaing
+#Trying
+###
 
 
 
